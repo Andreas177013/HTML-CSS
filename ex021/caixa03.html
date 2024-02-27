@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borda personalizada</title>
+    <style>
+        body{
+            background-color: lightgray;            
+        }
+
+        h1{
+            
+            width: 200px;
+            height: 200px;
+            border: 20px solid black; /* or transparent */
+            padding: 10px;
+
+            /*
+            border-image-source: url('borda.png');
+            border-image-slice: 20;
+            border-image-repeat: stretch;
+            */
+            border-image: url('borda.png') 20 stretch;
+          
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>teste de borda</h1>
+    
+</body>
+</html>
