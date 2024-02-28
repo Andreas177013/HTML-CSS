@@ -1,0 +1,43 @@
+@charset "UTF8";
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+
+body{
+    background-color: black;
+}
+
+section.normal{
+    background-color: white;
+    height: 300px;
+}
+
+section.imagem{
+    color:white;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(64, 166, 255, 0.445);
+}
+
+footer{
+    background-color: black;
+}
+
+footer > p{
+    color: white;
+}
+
+footer > p > a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
