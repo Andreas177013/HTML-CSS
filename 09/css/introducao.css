@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 100px;
-    align-items: center;   
+    align-items: center;  
 }
 
 .introducao h1{
@@ -65,7 +65,5 @@
     .introducao{
         grid-template-columns: 1fr;
     }
-    .introducao img {
-        display: none;
-    }
+    
 }
